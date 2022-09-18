@@ -109,6 +109,29 @@
                 <mxCell id="28" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
                     <mxGeometry x="320" y="1080" width="70" height="70" as="geometry"/>
                 </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="31" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="INPUT pilih" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="295" y="1240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="1395" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="pilih == 1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="1350" width="100" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="35" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="INPUT nama_barang&lt;br&gt;INPUT harga_barang&lt;br&gt;INPUT jumlah_barang" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="475" y="1365" width="165" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="list_belanja[size].id = size+1&lt;br&gt;list_belanja[size].nama_barang = nama_barang&lt;br&gt;list_belanja[size].harga_barang = harga_barang&lt;br&gt;list_belanja[size].jumlah_barang = jumlah_barang" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="1352.5" width="290" height="85" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
